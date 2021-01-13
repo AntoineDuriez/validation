@@ -68,7 +68,7 @@ void frein_test()
     CU_ASSERT_EQUAL(CSC(4, arg), 0);
 
     arg[2] = "1";
-    CU_ASSERT_EQUAL(CSC(4, arg), 2);
+    CU_ASSERT_EQUAL(CSC(4, arg), 1);
 }
 
 void propage_message_test()
