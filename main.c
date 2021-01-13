@@ -34,7 +34,7 @@ bool detection_danger_radar(long int distance)
 bool detection_danger_message(long int x, long int y, long int z, long int vx, long int vy, long int vz, long int time)
 {
     envoie_message_urgence();
-    return true;
+    return false;
 }
 
 long int getValue(char *str)
